@@ -8,7 +8,7 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
-from demobackend import *
+from backend import *
 from scripting import *
 
 class Ui_MainWindow(object):
@@ -175,7 +175,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "elshache"))
         self.general_label.setText(_translate("MainWindow", "General"))
         self.total_shares_label.setText(_translate("MainWindow", "Total Shares"))
         self.min_shares_label.setText(_translate("MainWindow", "Minimum needed shares"))

@@ -1,7 +1,7 @@
 """
 	file writing and reading scripts for encryption app
 """
-from demobackend import *
+from backend import *
 
 def generateShares(secret,totalshare,min_share):
 	obj = elshache(secret,totalshare,min_share)
